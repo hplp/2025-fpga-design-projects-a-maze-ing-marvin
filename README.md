@@ -1,23 +1,35 @@
 # Project_Template
 
-## Team Name: 
+## Team Name: FPGA Project Group 4
 (Enter your team name from Canvas)
 
 ## Team Members:
-- Student 1
-- Student 2
-- Student 3
+- Lisa Berlizova
+- Troy Harmon
+- Tessa Heick
 
 ## Project Title:
-(Enter your project title - be creative)
+### a-MAZE-ing Marvin: A voice activated maze game run on a PYNQ-Z1 board via TinyML network.
+
 
 ## Project Description:
-(Provide a short description of the problem you're addressing)
+Online games have become an essential aspect of modern entertainment, offering experiences that
+range from expansive multiplayer worlds to minesweeper on Google Chrome. However, many games rely
+on the physical dexterity of players, requiring consoles, keyboards, or motion detection systems. This can
+be challenging for individuals with limited mobility or finger strength. Thus, voice controlled movement
+in tandem with a single button system can provide an alternative, making simpler games more accessible
+to a wider audience.
+This project looks to integrate an existing maze game built with the Pygame library4 with a
+keyword detection system to create an accessible game run on an FPGA (the PYNQ-Z1 to be exact). It
+will use the onboard microphone and button system to capture audio from the player, which is then used
+by the DS-CNN to identify keywords, which will act as direction to move the player’s character through
+the maze. The FPGA will be running Jupyter Notebook via ethernet to display the game on a nearby
+monitor.
 
 ## Key Objectives:
-- Objective 1
-- Objective 2
-- Objective 3
+- Implement a DS-CNN that is capable of identifying kewords used in a maze game, such as "up", "down", etc.
+- Launch the network on the PYNQ-Z1 board, utilizing the onboard microphone and ethernet connection.
+- 
 
 ## Technology Stack:
 (List the hardware platform, software tools, language(s), etc. you plan to use)
