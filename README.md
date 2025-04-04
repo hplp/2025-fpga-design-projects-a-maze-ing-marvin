@@ -1,7 +1,6 @@
 # Project_Template
 
-## Team Name: FPGA Project Group 4
-(Enter your team name from Canvas)
+## FPGA Project Group 4
 
 ## Team Members:
 - Lisa Berlizova
@@ -29,16 +28,30 @@ monitor.
 ## Key Objectives:
 - Implement a DS-CNN that is capable of identifying kewords used in a maze game, such as "up", "down", etc.
 - Launch the network on the PYNQ-Z1 board, utilizing the onboard microphone and ethernet connection.
-- 
+- Integrate a publicly available maze game with our system.
 
 ## Technology Stack:
 (List the hardware platform, software tools, language(s), etc. you plan to use)
+- PYNQ-Z1 Board
+- Ethernet wire
+- PC
+- Monitor
+- Jupyter Notebook (Python)
+- Publicly available maze game: LINK
 
 ## Expected Outcomes:
 (Describe what you expect to deliver at the end of the project)
+We will deliver a locally run, voice-controlled maze game.
+ADD MORE
 
 ## Tasks:
 (Describe the tasks that need to be completed. Assign students to tasks)
+Lisa: Build and test DS-CNN
+Troy: Interface maze game with our system
+Tessa: Implement microphone control, interface DS-CNN with board
+All: Test game, add easter eggs!
 
 ## Timeline:
 (Provide a timeline or milestones for the project)
+April 4th - April 18th: Get game working 
+April 19th - End of Semester: Test game
