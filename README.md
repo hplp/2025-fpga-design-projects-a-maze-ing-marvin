@@ -60,7 +60,7 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - [ ] Lisa: Test DS-CNN accuracy and speed using audio of keywords captured with FPGA board
 - [x] Troy: Find open-source, simple maze game that can be modified and run in Python
 - [x] Troy: Transfer game code to Jupyter Notebook and make any modifications needed for the game to run and display properly
-- [ ] Troy: Develop interface for the user to play the game using outputs from the DS-CNN rather than keyboard inputs.
+- [x] Troy: Develop interface for the user to play the game using outputs from the DS-CNN rather than keyboard inputs.
 - [ ] All: Document progress and highlight significant challenges/obstacles
 - [ ] All: Perform full testing of the game and add easter eggs or additional features
 
