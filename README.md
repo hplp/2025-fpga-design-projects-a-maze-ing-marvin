@@ -52,16 +52,16 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - Figures, text, and code snips explaining major processes behind word recognition, use of FPGA hardware, and game control.
 
 ## Tasks:
-- [ ] Lisa: Create and share Jupyter Notebook with necessary libraries for DS-CNN
-- [ ] Lisa: Load keyword dataset into the notebook and train a DS-CNN model for keyword recognition
-- [ ] Tessa: Configure FPGA board to collect audio data using onboard microphone
+- [x] Lisa: Create and share Jupyter Notebook with necessary libraries for DS-CNN
+- [x] Lisa: Load keyword dataset into the notebook and train a DS-CNN model for keyword recognition
+- [x] Tessa: Configure FPGA board to collect audio data using onboard microphone
 - [ ] Tessa: Establish interface between FPGA button/microphone peripherals and the Jupyter Notebook to allow the Python program to process audio and classify keywords
-- [ ] Tessa/Troy: Develop any overlays or audio processing needed before microphone audio can be passed to the DS-CNN
+- [x] Tessa/Troy: Develop any overlays or audio processing needed before microphone audio can be passed to the DS-CNN
 - [ ] Lisa: Test DS-CNN accuracy and speed using audio of keywords captured with FPGA board
 - [x] Troy: Find open-source, simple maze game that can be modified and run in Python
 - [x] Troy: Transfer game code to Jupyter Notebook and make any modifications needed for the game to run and display properly
 - [x] Troy: Develop interface for the user to play the game using outputs from the DS-CNN rather than keyboard inputs.
-- [ ] All: Document progress and highlight significant challenges/obstacles
+- [x] All: Document progress and highlight significant challenges/obstacles
 - [ ] All: Perform full testing of the game and add easter eggs or additional features
 
 ## Timeline:
