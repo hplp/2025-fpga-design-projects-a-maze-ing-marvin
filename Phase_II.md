@@ -17,7 +17,7 @@ We’re excited to share that the **DS-CNN model has been trained and integrated
 - 🔍 Initially found a public domain maze game  
 - ⚠️ Discovered that **`pygame`** doesn't work in Jupyter Notebooks  
 - 🛠️ Built a custom maze-style game using graphing tools to simulate maze logic and visuals
-
+> Check out `IMPLEMENTATION.md` for the full story and photos, and 'GameAttempt2.ipynb' for the code!
 ---
 
 ## Integration Progress
