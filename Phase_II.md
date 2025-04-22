@@ -1,26 +1,34 @@
-#Phase II Update!
+# Phase II Update! 
 
-At this stage, we are happy to report that the DS-CNN model has been trained and integrated with the maze game code. The game is running with laptop onboard mics and is functional. The only caveat is the implementation of the 
-game on the PYNQ-Z1 board; there have been numerous challenges, but we are confident that with the strides we have made thus far, it will be working by delivery date.
+We’re excited to share that the **DS-CNN model has been trained and integrated** with the maze game code! The game runs using the laptop's onboard microphone and is functional. The only remaining hurdle is deploying the game on the **PYNQ-Z1 board**. While this has come with its fair share of challenges, we’re optimistic that everything will be running smoothly by the delivery date.
 
-##DS-CNN Update:
-- model has been implemented!
-- model has been trained on the dataset
-- resulting .tflite file was put on the FPGA (as a lightweight, trained model which can run inference)
-See speechCommand.ipynb!
+---
 
+## DS-CNN Model Update
+- ✅ Model implemented and trained on our dataset  
+- ✅ Exported to `.tflite` format for efficient inference  
+- ✅ Deployed on the FPGA as a lightweight inference model  
 
-##Game Update:
-- found public domain game
--> found out that pygame will not run on jupyter notebook
-- built our own game that employs available graphing tools to mimic a maze design
+> Check out `speechCommand.ipynb` for the full implementation!
 
+---
 
-##Integration Update:
-- found out that the version of python installed on the pynq board was not directly compatible with tflite-runtime
--> installed Python 3.7 on FPGA
-- installed tflite-runtime in a new environment on the FPGA which ran on the new python version
-- installed all necessary pacakges related to jupyter notebook, numpy, etc in new environment
-#now, tflite-runtime is operational on a new kernel designed for our project. still in process is the installation of pynq overlays to be able to use the onboard mic
-- we investigated using sounddevices as a possibility for audio collection, but the audio libraries associated with it could not detect the board's microphone
-- some of the difficulty in installing pynq overlays on the board is integrating the files related to the hardware with the new kernel environment, but we expect it to be working soon
+## Game Development Update
+- 🔍 Initially found a public domain maze game  
+- ⚠️ Discovered that **`pygame`** doesn't work in Jupyter Notebooks  
+- 🛠️ Built a custom maze-style game using graphing tools to simulate maze logic and visuals
+
+---
+
+## Integration Progress
+- ⚠️ The PYNQ board's default Python version wasn’t compatible with `tflite-runtime`  
+  → ✅ Installed **Python 3.7** on the FPGA  
+- ✅ Created a new environment and successfully installed `tflite-runtime`  
+- ✅ Installed supporting packages: `numpy`, Jupyter Notebook dependencies, etc.  
+- ✅ `tflite-runtime` is now **operational in a dedicated kernel** for our project  
+- 🔍 Attempted to use `sounddevice` for mic input  
+  → ❌ Mic libraries didn’t detect the board’s microphone  
+- ⚙️ Currently working on installing **PYNQ**  
+  → This involves integrating board-specific hardware files with the new Python environment  
+
+> We’re currently troubleshooting the install of pynq so that we can use the overlay library to get audio data, but we expect that once it works, our game will be entirely deployed on the board!
