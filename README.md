@@ -55,14 +55,14 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - [x] Lisa: Create and share Jupyter Notebook with necessary libraries for DS-CNN
 - [x] Lisa: Load keyword dataset into the notebook and train a DS-CNN model for keyword recognition
 - [x] Tessa: Configure FPGA board to collect audio data using onboard microphone
-- [ ] Tessa: Establish interface between FPGA button/microphone peripherals and the Jupyter Notebook to allow the Python program to process audio and classify keywords
+- [x] Tessa: Establish interface between FPGA button/microphone peripherals and the Jupyter Notebook to allow the Python program to process audio and classify keywords
 - [x] Tessa/Troy: Develop any overlays or audio processing needed before microphone audio can be passed to the DS-CNN
-- [ ] Lisa: Test DS-CNN accuracy and speed using audio of keywords captured with FPGA board
+- [x] Lisa: Test DS-CNN accuracy and speed using audio of keywords captured with FPGA board
 - [x] Troy: Find open-source, simple maze game that can be modified and run in Python
 - [x] Troy: Transfer game code to Jupyter Notebook and make any modifications needed for the game to run and display properly
 - [x] Troy: Develop interface for the user to play the game using outputs from the DS-CNN rather than keyboard inputs.
 - [x] All: Document progress and highlight significant challenges/obstacles
-- [ ] All: Perform full testing of the game and add easter eggs or additional features
+- [x] All: Perform full testing of the game and add easter eggs or additional features
 
 ## Timeline:
 (Provide a timeline or milestones for the project)
@@ -74,6 +74,10 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 
 ## Presentation Link:
 [Voice Controlled Maze Game Goodle Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+
+## Final Reflection:
+(Please see the slides for final results and video demos.)
+In conclusion, while our final delivery was not entirely what we had originally imagined, all of the components we expected to deliver were completed. We had audio collection and conversion, a keyword identification rate of ~70%, and a maze game that was playable as deployed on the PYNQ-Z1 board. One of the biggest takeaways from the project was understanding that hardware and software limitations (such as the versions of Python required, or packages required) played a key role in the deployability of our model on the hardware. In conclusion, we feel that we delivered a strong final product and learned a lot about working within the capabilities of the hardware provided. 
 
 ## Sources:
 - [Chirravuri, Kuo. Voice Controlled Chess Game on FPGA Using Dynamic Time Warping. MIT, 2008.](https://web.mit.edu/6.111/www/f2008/projects/mikekuo_Project_Final_Report.pdf)
