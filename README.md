@@ -72,6 +72,9 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - April 14th - 19th: Replace game controls with keyword outputs from DS-CNN. Troubleshoot issues with keyword recognition and game playability.
 - April 19th - End of Semester: Perform final testing of game and work on presentation.
 
+##Presentation Link:
+[Voice Controlled Maze Game Goodle Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+
 ## Sources:
 - [Chirravuri, Kuo. Voice Controlled Chess Game on FPGA Using Dynamic Time Warping. MIT, 2008.](https://web.mit.edu/6.111/www/f2008/projects/mikekuo_Project_Final_Report.pdf)
 - [Sorensen, Epp, May. A Depthwise Separable Convolutional Neural Network for Keyword Spotting on an Embedded System. EURASIP 2020.](https://www.researchgate.net/publication/342461111_A_depthwise_separable_convolutional_neural_network_for_keyword_spotting_on_an_embedded_system)
