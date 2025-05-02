@@ -72,7 +72,7 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - April 14th - 19th: Replace game controls with keyword outputs from DS-CNN. Troubleshoot issues with keyword recognition and game playability.
 - April 19th - End of Semester: Perform final testing of game and work on presentation.
 
-##Presentation Link:
+## Presentation Link:
 [Voice Controlled Maze Game Goodle Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
 
 ## Sources:
