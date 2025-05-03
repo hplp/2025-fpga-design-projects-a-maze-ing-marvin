@@ -42,7 +42,7 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - Jupyter Notebook (Python)
 - Maze game from Pygame Repository: [PyMaze](https://www.pygame.org/project/733)
 - Vivado
-- Keyword Audio Dataset: #Link?
+- Keyword Audio Dataset
 - External microphone (if onboard microphone is not sufficient for clean audio capture)
 
 ## Expected Outcomes and Deliverables:
