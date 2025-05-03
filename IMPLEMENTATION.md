@@ -15,3 +15,7 @@ The initial training and testing of the model was done externally from the board
 <img src="Images/data code.png" alt="Function for loading dataset" width="500"/>
 <img src="Images/model code.png" alt="Function defining the CNN model" width="500"/>
 <img src="Images/model train code.png" alt="Function for training and exporting the model" width="500"/>
+
+# Collecting Audio:
+The code to interface with the onboard microphone for the PYNQ-Z1 board was found in the pre-loaded Jupyter Notebooks from the image processing lab. Inside the "jupyter_notebooks/base/audio" folder there is a notebook called audio_playback which is shown as an html file in this drive. Code from this file as well as code from board_btns_leds was taken and modified for our audio collection needs. The code for collecting and exporting the voice commands is shown below and the full notebook is included in the repository. 
+<img src="Images/audio collection code.png" alt="Code to collect voice commands" width="700"/>
