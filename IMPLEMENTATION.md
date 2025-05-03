@@ -8,10 +8,10 @@ When the game was transferred to a Jupyter Notebook in Google Colab, a major iss
 
 These functions were combined in a test Notebook (GameAttempt2.ipynb) with an infinite loop serving as the main method. In this loop, the maze and player are displayed, the user is prompted to enter a move (a letter 'l', 'r', 'u', or 'd'), the user input is processed, and the display is cleared for the next iteration. With this implementation the user is able to move step by step through the maze, one direction at a time, which also provides a simpler interface with the word recognition model that will later be used to control it. The resulting new game interface is shown below:
 
-<img src="MazeDemo2.png" alt="Revised Game Demo" width="500"/>
+<img src="Images/MazeDemo2.png" alt="Revised Game Demo" width="500"/>
 
 # Training a DS-CNN Model:
 The initial training and testing of the model was done externally from the board in a Google Colab notebook. The Tensorflow and Pydub libraries were used to bring in the voice command data, train the mode, and export the finished model as a .tflite that could be used to run inference on the FPGA itself. The following images show the Colab code used to define, train, and export the model.
-<img src="" alt="Function for loading dataset" width="500"/>
-<img src="" alt="Function defining the CNN model" width="500"/>
-<img src="" alt="Function for training and exporting the model" width="500"/>
+<img src="Images/data code.png" alt="Function for loading dataset" width="500"/>
+<img src="Images/model code.png" alt="Function defining the CNN model" width="500"/>
+<img src="Images/model train code.png" alt="Function for training and exporting the model" width="500"/>
