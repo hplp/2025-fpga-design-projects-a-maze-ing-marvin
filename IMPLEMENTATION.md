@@ -12,10 +12,15 @@ These functions were combined in a test Notebook (GameAttempt2.ipynb) with an in
 
 # Training a DS-CNN Model:
 The initial training and testing of the model was done externally from the board in a Google Colab notebook. The Tensorflow and Pydub libraries were used to bring in the voice command data, train the mode, and export the finished model as a .tflite that could be used to run inference on the FPGA itself. The following images show the Colab code used to define, train, and export the model.
+
 <img src="Images/data code.png" alt="Function for loading dataset" width="500"/>
 <img src="Images/model code.png" alt="Function defining the CNN model" width="500"/>
 <img src="Images/model train code.png" alt="Function for training and exporting the model" width="500"/>
 
 # Collecting Audio:
-The code to interface with the onboard microphone for the PYNQ-Z1 board was found in the pre-loaded Jupyter Notebooks from the image processing lab. Inside the "jupyter_notebooks/base/audio" folder there is a notebook called audio_playback which is shown as an html file in this drive. Code from this file as well as code from board_btns_leds was taken and modified for our audio collection needs. The code for collecting and exporting the voice commands is shown below and the full notebook is included in the repository. 
+The code to interface with the onboard microphone for the PYNQ-Z1 board was found in the pre-loaded Jupyter Notebooks from the image processing lab. Inside the "jupyter_notebooks/base/audio" folder there is a notebook called audio_playback which is provided in the repository. Code from this file as well as code from board_btns_leds was taken and modified for our audio collection needs. The code for collecting and exporting the voice commands is shown below and the full notebook is included in the repository. The audio used to train the DS-CNN model must be in PCM form, while the PYNQ board and the onboard microphone collect and store audio in the PDM form. Before exporting the recorded audio as a CSV file, it is converted to the proper format by decimation.
+
 <img src="Images/audio collection code.png" alt="Code to collect voice commands" width="700"/>
+
+# Loading Audio and Running Inference:
+Due to verison and compatibility problems, the tensorflow library was never successfully run on the FPGA board. This required the audio to be exported and then loaded into another notebook for inference/keyword detection.
