@@ -74,8 +74,11 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 
 ## Presentation Links:
 [Voice Controlled Maze Game Google Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+
 [Maze Game Demonstration Video](https://drive.google.com/file/d/1W0BqbMQ1zFdhhitgHYAwT9DwswtO_Pdz/view?usp=sharing)
+
 [Audio Recording Demonstration Video](https://drive.google.com/file/d/1nPdhHDSm0IZ8_LBksMuxZ_WvVHcWSsal/view?usp=sharing)
+
 [CNN Inference Demonstration Video](https://drive.google.com/file/d/1xN6I--RpJWBrPIFzGth384vdqJO8J9Vj/view?usp=sharing)
 
 ## Progress Documentation:
