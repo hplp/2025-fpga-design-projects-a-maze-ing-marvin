@@ -73,7 +73,10 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - April 19th - End of Semester: Perform final testing of game and work on presentation.
 
 ## Presentation Link:
-[Voice Controlled Maze Game Goodle Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+[Voice Controlled Maze Game Google Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+
+## Progress Documentation:
+Two other markdown files, "IMPLEMENTATION.md" and "Phase_II.md" were used to provide more detailed accounts of progress made throughout this project. Refer to these files for information on the process of developing the project and highlighted sections of important code.
 
 ## Final Reflection:
 (Please see the slides for final results and video demos.)
