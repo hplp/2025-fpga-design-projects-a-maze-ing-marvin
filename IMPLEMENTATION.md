@@ -29,8 +29,4 @@ Due to verison and compatibility problems, the tensorflow library was never succ
 <img src="Images/inference code.png" alt="Code to run inference" width="500"/>
 
 # Running Game on FPGA:
-Finally, the game and its controls were transferred to run on the PYNQ-Z1 board. This is illustrated in the maze game demo video.
-
-<video width="500" height="500" controls>
-  <source src="maze_game_demo.mp4" type="video/mp4">
-</video>
+Finally, the game and its controls were transferred to run on the PYNQ-Z1 board by integrating code from base modules showing how to access push buttons, poll for user inputs, and map certain buttons to certain responses. This is illustrated in the maze game demo video.
