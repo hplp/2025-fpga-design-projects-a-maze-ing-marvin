@@ -72,8 +72,11 @@ The employment of FPGAs in keyword detection is not a novel concept; a variety o
 - April 14th - 19th: Replace game controls with keyword outputs from DS-CNN. Troubleshoot issues with keyword recognition and game playability.
 - April 19th - End of Semester: Perform final testing of game and work on presentation.
 
-## Presentation Link:
+## Presentation Links:
 [Voice Controlled Maze Game Google Slides](https://docs.google.com/presentation/d/1qMRqGXwEbrLOZZOA26FGhKCCzrCHrXwbuXwiMyr2hqE/edit?usp=sharing)
+[Maze Game Demonstration Video](https://drive.google.com/file/d/1W0BqbMQ1zFdhhitgHYAwT9DwswtO_Pdz/view?usp=sharing)
+[Audio Recording Demonstration Video](https://drive.google.com/file/d/1nPdhHDSm0IZ8_LBksMuxZ_WvVHcWSsal/view?usp=sharing)
+[CNN Inference Demonstration Video](https://drive.google.com/file/d/1xN6I--RpJWBrPIFzGth384vdqJO8J9Vj/view?usp=sharing)
 
 ## Progress Documentation:
 Two other markdown files, "IMPLEMENTATION.md" and "Phase_II.md" were used to provide more detailed accounts of progress made throughout this project. Refer to these files for information on the process of developing the project and highlighted sections of important code.
