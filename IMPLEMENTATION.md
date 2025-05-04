@@ -23,4 +23,7 @@ The code to interface with the onboard microphone for the PYNQ-Z1 board was foun
 <img src="Images/audio collection code.png" alt="Code to collect voice commands" width="700"/>
 
 # Loading Audio and Running Inference:
-Due to verison and compatibility problems, the tensorflow library was never successfully run on the FPGA board. This required the audio to be exported and then loaded into another notebook for inference/keyword detection.
+Due to verison and compatibility problems, the tensorflow library was never successfully run on the FPGA board. This required the audio to be exported and then loaded into another notebook for inference/keyword detection. The blocks of code to load in the pre-trained model and run inference on an audio sample are shown below. These are part of the pull speechCommand implementation. The audio inference demo provides real examples of audio sampled being tested on the trained model.
+
+<img src="Images/model load code.png" alt="Code to load trained model" width="500"/>
+<img src="Images/inference code.png" alt="Code to run inference" width="500"/>
